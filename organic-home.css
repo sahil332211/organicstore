@@ -1,0 +1,384 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 100px 25px;
+  background: rgb(245, 245, 245);
+}
+.header img{
+    height: 65px;
+}
+.header a{
+    text-decoration: none;
+    padding: 0px 10px 10px;
+    color: black;
+    font-size: 15px;
+}
+.header div,price{
+    color: rgb(47, 200, 47);
+    font-size: 20px;
+}
+.header,div sup{
+    color: greenyellow;
+}
+.section{
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 50px 0px;
+    }
+/* .section {
+  background:url(https://websitedemos.net/organic-shop-02/wp-content/uploads/sites/465/2019/06/leaves-free-img.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    height: 100vh;
+    width: 200vh;
+    opacity: 0.5; 
+  } */
+   .back-image img{
+    position: absolute;
+    height: 40vh;
+    bottom: 5%;
+    top: 80%;
+    left: 72%;
+    opacity: 0.6;
+   }
+.left img{
+    height:90vh;
+    padding: 0px 50px 20px;
+}
+.right img{
+    padding: 30px 0px 20px;
+}
+.right h3{
+    font: bold;
+    font-size: 25px;
+    padding: 0px 0px 20px;
+}
+.right h1{
+    padding: 0px 0px 20px;
+    line-height: 50px;
+    font-family: sans-serif;
+    font-size: 45px;
+}
+.right p{
+    font-size:18px;
+    padding: 0px 0px 20px;
+    color: rgb(78, 77, 77);
+}
+.right button{
+    background-color: rgb(96, 183, 70);
+    padding: 10px 25px;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+    padding: 30px 200px 25px;
+    background: black;
+}
+.box{
+    background-color: grey;
+    color: white;
+    border-radius: 5px;
+    padding: 10px 5px 0px;
+    text-align: center;
+    width: 200px;
+}
+.box h3 {
+     margin: 10px 0px 5px;
+     font-size: 21px;
+}
+.box p {
+    font-size: 20px;
+    color: #ccc;
+}
+.Groceries{
+    text-align: center;
+    padding: 40px;
+}
+.Groceries h1 {
+  font-size: 37px;
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+.leaf{
+    padding: 30px 50px;
+}
+.Groceries-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  /* flex-wrap: wrap; */
+}
+.Groceries-box {
+  background: white;
+  padding: 10px;
+  width: 300px;
+  position: relative;
+  border-radius: 5px;
+}
+.Groceries-box img {
+  width: 100%;
+  height: auto;
+}
+.category {
+  color: gray;
+  font-size: 17px;
+  padding-top: 5px;
+}
+.category h3{
+    font-size: 21px;
+}
+.price {
+  font-weight: bold;
+  font-size: 18px;
+}
+.price del{
+    color: grey;
+}
+.sale {
+  position: absolute;
+  top: -5px;
+  right: 4px;
+  background: green;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 25px;
+  font-size: 15px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+.l-container{
+    background: rgb(236, 236, 236);
+    padding: 60px;
+}
+.basil-leaf{
+    position: absolute;
+    top: 255%;
+    left: 45%; 
+}
+.vegetables-container{
+display: flex;
+justify-content: center;
+padding: 30px 100px 0px;
+gap: 20px;
+}
+.vegetables-container div{
+    padding: 20px 25px 14px;
+    gap:50px;
+    padding-left: 114px;
+}
+.lemon{
+    background-image: url(https://websitedemos.net/organic-shop-02/wp-content/uploads/sites/465/2019/06/product11-free-img.jpg);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: 260px;
+    height: 258px;
+    width: 480px;
+}
+.gobhi{
+    background-image: url(https://websitedemos.net/organic-shop-02/wp-content/uploads/sites/465/2019/06/product13-free-img.jpg);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: 260px;
+    height: 258px;
+    width: 480px;
+}
+.seed{
+    background-image: url(https://websitedemos.net/organic-shop-02/wp-content/uploads/sites/465/2019/06/product17-free-img.jpg);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: 260px;
+    height: 258px;   
+    width: 480px;
+}
+.vegetables-container,div h3{
+    font-size: 22px;
+    color: black;
+    padding-bottom: 5px;
+    padding-left: 15px;
+}
+.vegetables-container,div p{
+    color: grey;
+    font-size: 12px;
+    padding-bottom: 12px;
+    padding-left: 15px;
+}
+.vegetables-container button{
+    background-color: green;
+    border: none;
+    padding: 6px;
+    color: white;
+    margin-left: 15px;
+    cursor: pointer;
+}
+.black{
+    display: flex;
+    justify-content: center;
+    padding: 35px 90px 30px;
+    background: black;
+    gap: 250px;
+}
+.black h2{
+    color: white;
+    font-size: 45px;
+}
+.black button{
+    background: green;
+    padding: 20px 15px 15px;
+    font-size: 17px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+.grey{
+    background: rgb(237, 237, 237);
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+.grey h2{
+    color: black;
+    font-size: 25px;
+}
+.review-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  align-items: center;
+}
+.box1{
+  background: rgb(247, 243, 243);
+  padding: 20px;
+  width: 250px;
+  text-align: center;
+  border-radius: 10px;
+}
+.stars {
+  color: rgb(248, 161, 0);
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+.user{
+  margin-top: 25px;
+}
+.user img {
+  border-radius: 50%;
+}
+.user span {
+ display: block;
+ padding-bottom: 50px;
+top: 50%;
+}
+.deal {
+  width: 300px;
+  height: 350px;
+  background: url('https://images.unsplash.com/photo-1542838132-92c53300491e') no-repeat center/cover;
+  border-radius: 10px;
+  position: relative;
+}
+.day {
+  background: rgba(0,0,0,0.5);
+  color: white;
+  height: 100%;
+  padding: 20px;
+  text-align: center;
+  border-radius: 10px;
+}
+.day h2 {
+  font-size: 30px;
+  margin-top: 20px;
+}
+.day h3{
+    margin-top: 3px;
+    color: white;
+    font-size: 30px;
+}
+.day button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background: green;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.brand {
+    padding: 100px;
+    display: flex;
+  text-align: center;
+}
+.brand-logos {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  margin-top: 6.5px;
+  margin-right: 20px;
+  padding-left: 70px;
+  font-weight: bold;
+}
+.footer {
+  background: black;
+  color: rgb(0, 0, 0);
+  padding: 40px 60px;
+}
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  background: black;
+}
+.footer-box {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  width: 22%;
+}
+.footer-box p {
+  margin-top: 15px;
+  color: #ccc;
+  font-style: italic;
+}
+.footer-box h3 {
+    color: white;
+  margin-bottom: 15px;
+}
+.footer-box nav {
+  list-style: none;
+}
+.footer-box nav {
+  margin: 8px 0;
+}
+.footer-box nav a {
+  text-decoration: none;
+  padding-bottom: 5px ;
+  color: #ccc;
+  display: block;
+  font-size: 14px;
+}
+.footer-box nav a:hover {
+  color: white;
+}
+.footer-bottom {
+  border-top: 1px solid #333;
+  margin-top: 30px;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  padding: 0px 50px 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: black;
+}
+.last-icons span {
+  margin-left: 10px;
+  cursor: pointer;
+}
